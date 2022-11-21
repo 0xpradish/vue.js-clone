@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: grey;
+    font-family: 'Sono', sans-serif;;
+}
+
+.nav-elements{
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid rgb(109, 105, 105);
+    font-weight: 400;
+    
+}
+
+
+.left-nav{
+    display: flex;
+    padding: 0 50px;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.right-nav{
+    display: flex;
+    padding-right: 30px;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 15px;
+    
+}
+
+.vue{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-nav a{
+    color: rgb(62, 58, 58);
+    font-size: 18px;
+}
+
+.button-search{
+    border-radius: 10px;
+    border: 0px solid transparent;
+    background-color: grey;
+    color: rgb(62, 58, 58);
+    font-size: 15px;
+}
+
+.button-ctrl {
+    border-radius: 6px;
+    letter-spacing: 1px;
+    border: .5px solid rgb(62, 58, 58);
+    background-color: grey;
+    /* padding: 0px 4px; */
+    color: rgb(62, 58, 58);
+    padding: 0px 4px;
+    font-size: 12px;
+}
+
+.button-ctrl:hover{
+          color:#4de375 ;
+          border: .5px solid #4de375;
+}
+
+.center{
+    height: 500px;
+    border-bottom: 2px solid rgb(109, 105, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.heading-center{
+    font-size: 5rem;
+    padding: 0 130px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+   
+}
+
+.heading-center-2{
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: -10px;
+    padding: 0 ;
+        
+}
+.para-center{
+    color:white;
+   margin-top: -30px;
+    font-size: 19px;
+    padding-left: 15px;
+    font-weight: 400;
+    
+    
+}
+.center-pv{
+   
+    width: 80vw;
+    padding: 0;
+    padding-left: 200px;
+}
+
+.center-buttons{
+    padding-left: 500px;
+}
+.center-buttons-1{
+    font-size: 25px;
+    font-weight: 400;
+    border: 2px solid transparent;
+    background-color: #4de375;
+    border-radius: 10px;
+    color: rgb(62, 58, 58);
+}
+
+
+
